@@ -1,0 +1,19 @@
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Roboto Mono', monospace;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 24px;
+}
