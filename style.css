@@ -1,12 +1,30 @@
 main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   font-family: 'Roboto Mono', monospace;
   color: #000;
   text-align: center;
   text-transform: uppercase;
-  transform: translate(-50%, -50%);
+}
+
+.center,
+footer {
+  margin-top: auto;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+a {
+  color: inherit;
 }
 
 h1 {
@@ -16,4 +34,9 @@ h1 {
 
 h2 {
   font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.register {
+  margin-bottom: 8px;
 }
